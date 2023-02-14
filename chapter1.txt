@@ -1,0 +1,1 @@
+Yes, it is possible. You must create a pre-commit hook which rejects commits to the master branch. Git doesn't call a pre-commit hook when you call the merge command, so this hook will be rejecting only regular commits.
